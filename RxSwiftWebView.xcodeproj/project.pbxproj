@@ -21,6 +21,9 @@
 		3B10BC2C2A8D086800F9B3B0 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B10BC2B2A8D086800F9B3B0 /* TextFieldViewController.swift */; };
 		3B723CAD2A8D1C14002C5B10 /* RxWebKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B723CAC2A8D1C14002C5B10 /* RxWebKit.storyboard */; };
 		3B723CAF2A8D1CA0002C5B10 /* RxWebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B723CAE2A8D1CA0002C5B10 /* RxWebKitViewController.swift */; };
+		3B723CB22A8DD91A002C5B10 /* RxWebMVVM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B723CB12A8DD91A002C5B10 /* RxWebMVVM.storyboard */; };
+		3B723CB42A8DD936002C5B10 /* RxWebMVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B723CB32A8DD936002C5B10 /* RxWebMVVMViewController.swift */; };
+		3B723CB62A8DD94F002C5B10 /* RxWebMVVMViweModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B723CB52A8DD94F002C5B10 /* RxWebMVVMViweModel.swift */; };
 		7E50A93505F19809E5416751 /* Pods_RxSwiftWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09400B5B37D6FD7538FFF4C /* Pods_RxSwiftWebView.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 		3B10BC2B2A8D086800F9B3B0 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 		3B723CAC2A8D1C14002C5B10 /* RxWebKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxWebKit.storyboard; sourceTree = "<group>"; };
 		3B723CAE2A8D1CA0002C5B10 /* RxWebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWebKitViewController.swift; sourceTree = "<group>"; };
+		3B723CB12A8DD91A002C5B10 /* RxWebMVVM.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxWebMVVM.storyboard; sourceTree = "<group>"; };
+		3B723CB32A8DD936002C5B10 /* RxWebMVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWebMVVMViewController.swift; sourceTree = "<group>"; };
+		3B723CB52A8DD94F002C5B10 /* RxWebMVVMViweModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWebMVVMViweModel.swift; sourceTree = "<group>"; };
 		6C0AA1B078C82848EF18DC33 /* Pods-RxSwiftWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftWebView.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftWebView/Pods-RxSwiftWebView.release.xcconfig"; sourceTree = "<group>"; };
 		E09400B5B37D6FD7538FFF4C /* Pods_RxSwiftWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C24B7497F2A012E8836EE8 /* Pods-RxSwiftWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftWebView.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftWebView/Pods-RxSwiftWebView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 			children = (
 				3B10BC0A2A8CB51F00F9B3B0 /* AppDelegate.swift */,
 				3B10BC0C2A8CB51F00F9B3B0 /* SceneDelegate.swift */,
+				3B723CB02A8DD8DE002C5B10 /* RxWebMVVM */,
 				3B10BC282A8D082900F9B3B0 /* TextField */,
 				3B723CAB2A8D1BF2002C5B10 /* RxWebKit */,
 				3B10BC1F2A8CB5C800F9B3B0 /* Rx */,
@@ -137,6 +144,16 @@
 				3B723CAE2A8D1CA0002C5B10 /* RxWebKitViewController.swift */,
 			);
 			path = RxWebKit;
+			sourceTree = "<group>";
+		};
+		3B723CB02A8DD8DE002C5B10 /* RxWebMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				3B723CB12A8DD91A002C5B10 /* RxWebMVVM.storyboard */,
+				3B723CB32A8DD936002C5B10 /* RxWebMVVMViewController.swift */,
+				3B723CB52A8DD94F002C5B10 /* RxWebMVVMViweModel.swift */,
+			);
+			path = RxWebMVVM;
 			sourceTree = "<group>";
 		};
 		B6B7D4C9C93A33F04E2F7E45 /* Frameworks */ = {
@@ -208,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B10BC172A8CB52000F9B3B0 /* LaunchScreen.storyboard in Resources */,
+				3B723CB22A8DD91A002C5B10 /* RxWebMVVM.storyboard in Resources */,
 				3B10BC142A8CB52000F9B3B0 /* Assets.xcassets in Resources */,
 				3B10BC122A8CB51F00F9B3B0 /* Main.storyboard in Resources */,
 				3B723CAD2A8D1C14002C5B10 /* RxWebKit.storyboard in Resources */,
@@ -267,10 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B10BC0F2A8CB51F00F9B3B0 /* ViewController.swift in Sources */,
+				3B723CB62A8DD94F002C5B10 /* RxWebMVVMViweModel.swift in Sources */,
 				3B10BC272A8CB64200F9B3B0 /* KVOWebViewController.swift in Sources */,
 				3B723CAF2A8D1CA0002C5B10 /* RxWebKitViewController.swift in Sources */,
 				3B10BC2C2A8D086800F9B3B0 /* TextFieldViewController.swift in Sources */,
 				3B10BC0B2A8CB51F00F9B3B0 /* AppDelegate.swift in Sources */,
+				3B723CB42A8DD936002C5B10 /* RxWebMVVMViewController.swift in Sources */,
 				3B10BC0D2A8CB51F00F9B3B0 /* SceneDelegate.swift in Sources */,
 				3B10BC252A8CB62600F9B3B0 /* RxWebViewController.swift in Sources */,
 			);
